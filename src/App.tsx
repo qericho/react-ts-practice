@@ -1,9 +1,10 @@
-import AppCounter from "./counter/AppCounter";
+import FetchData from "./fetch/FetchData";
 
 const App = () => {
   return (
     <>
       {/* <AppCounter /> */}
+      <FetchData />
     </>
   );
 };
