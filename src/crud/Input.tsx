@@ -18,6 +18,10 @@ const Input: React.FC<InputProps> = ({ tasks, setTasks }) => {
       alert("Please enter something");
       return;
     }
+    if (input.trim().length > 30) {
+      alert("Input is too long (max 30 characters).");
+      return;
+    }
     setTasks([...tasks, { id: Date.now(), name: input.trim() }]);
     setInput("");
   };
