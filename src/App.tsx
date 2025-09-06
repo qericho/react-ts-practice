@@ -1,6 +1,7 @@
 // import Crud from "./crud/Crud";
 // import FetchData from "./fetch/FetchData";
-import PokeSearch from "./PokeSearch/PokeSearch";
+// import PokeSearch from "./pokeSearch/PokeSearch";
+import Login from "./formHandling/Login";
 
 const App = () => {
   return (
@@ -8,7 +9,8 @@ const App = () => {
       {/* <AppCounter /> */}
       {/* <FetchData /> */}
       {/* <Crud /> */}
-      <PokeSearch />
+      {/* <PokeSearch /> */}
+      <Login />
     </>
   );
 };

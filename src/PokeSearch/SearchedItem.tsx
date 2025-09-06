@@ -1,5 +1,4 @@
 import type { Pokemon } from "./Types";
-
 interface SearchedItemProps {
   data: Pokemon | null;
 }
